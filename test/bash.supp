@@ -1,0 +1,13 @@
+{
+	<bash>
+	Memcheck:Leak
+	...
+	obj:/usr/bin/bash
+}
+
+{
+	<seq>
+	Memcheck:Leak
+	...
+	obj:/usr/bin/seq
+}
