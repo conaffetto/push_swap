@@ -4,7 +4,7 @@ NAME = push_swap
 
 # compilation flags and linker flags
 CC = cc
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -Wshadow -g
 
 LDFLAGS = $(foreach dir,$(SLIB_DIRS),-L$(dir)/bin/)
 LDLIBS = $(foreach lib,$(LIBS),-l$(patsubst lib%.a,%,$(notdir $(lib))))
