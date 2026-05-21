@@ -285,42 +285,42 @@ $PROGRAM 42 888
 # rather smalll stacks, because of how the chunks are splitted, and so this
 # testing script incudes a number of those, to avoid bad surprises)
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 4 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 4 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 4 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 4 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 4 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 4 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 4 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 4 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 4 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 4 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 4 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 4 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
 
 # TESTING: random 6 integer stacks
-$PROGRAM $(seq -234234 +2342341 | shuf -n 6 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 6 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 6 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 6 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 6 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 6 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 6 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 6 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 6 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 6 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 6 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 6 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
 
 # TESTING: random 7 integer stacks
-$PROGRAM $(seq -234234 +2342341 | shuf -n 7 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 7 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 7 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 7 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 7 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 7 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 7 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 7 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 7 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 7 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 7 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 7 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 7 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 7 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
 
 # TESTING: random 8 integer stack
 #
-$PROGRAM $(seq -234234 +2342341 | shuf -n 8 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 8 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 8 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 8 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 8 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 8 | tr '\n' ' ')
-$PROGRAM $(seq -234234 +2342341 | shuf -n 8 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 8 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 8 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 8 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 8 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 8 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 8 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 8 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
 
 # TESTING: push_swap benchmark stacks
@@ -331,23 +331,23 @@ $PROGRAM 2147483647 -2147483648 -2147483645
 
 $PROGRAM -2147483648 -2147483645 2147483647
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 3 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 3 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 3 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 3 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 3 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 3 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 3 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 3 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 3 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 3 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -8 +3 | shuf -n 3 | tr '\n' ' ')
+$PROGRAM $(seq -8 +3 | shuf -n 3 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -8 +3 | shuf -n 3 | tr '\n' ' ')
+$PROGRAM $(seq -8 +3 | shuf -n 3 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -8 +3 | shuf -n 3 | tr '\n' ' ')
+$PROGRAM $(seq -8 +3 | shuf -n 3 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -8 +3 | shuf -n 3 | tr '\n' ' ')
+$PROGRAM $(seq -8 +3 | shuf -n 3 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
 
 
@@ -357,84 +357,84 @@ $PROGRAM 2147483647 -2147483630 2147483643 -2147483648 -2147483645
 
 $PROGRAM -2147483630 2147483643 -2147483648 2147483647 -2147483645
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 5 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 5 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 5 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 5 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 5 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 5 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 5 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 5 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 5 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 5 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -8 +3 | shuf -n 5 | tr '\n' ' ')
+$PROGRAM $(seq -8 +3 | shuf -n 5 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -8 +3 | shuf -n 5 | tr '\n' ' ')
+$PROGRAM $(seq -8 +3 | shuf -n 5 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -8 +3 | shuf -n 5 | tr '\n' ' ')
+$PROGRAM $(seq -8 +3 | shuf -n 5 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -8 +3 | shuf -n 5 | tr '\n' ' ')
+$PROGRAM $(seq -8 +3 | shuf -n 5 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
 
 
 # TESTING: random 100 integer stacks
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 100 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 100 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 100 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 100 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 100 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 100 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 100 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 100 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 100 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 100 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -450 +3 | shuf -n 100 | tr '\n' ' ')
+$PROGRAM $(seq -450 +3 | shuf -n 100 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -450 +3 | shuf -n 100 | tr '\n' ' ')
+$PROGRAM $(seq -450 +3 | shuf -n 100 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -450 +3 | shuf -n 100 | tr '\n' ' ')
+$PROGRAM $(seq -450 +3 | shuf -n 100 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -450 +3 | shuf -n 100 | tr '\n' ' ')
+$PROGRAM $(seq -450 +3 | shuf -n 100 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -450 +3 | shuf -n 100 | tr '\n' ' ')
+$PROGRAM $(seq -450 +3 | shuf -n 100 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
 
 
 # TESTING: random 500 integer stacks
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | tr '\n' ' ')
+$PROGRAM $(seq -234234 +2342341 | shuf -n 500 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -200 800 | shuf -n 500 | tr '\n' ' ')
+$PROGRAM $(seq -200 800 | shuf -n 500 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -200 800 | shuf -n 500 | tr '\n' ' ')
+$PROGRAM $(seq -200 800 | shuf -n 500 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -200 800 | shuf -n 500 | tr '\n' ' ')
+$PROGRAM $(seq -200 800 | shuf -n 500 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -200 800 | shuf -n 500 | tr '\n' ' ')
+$PROGRAM $(seq -200 800 | shuf -n 500 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -200 800 | shuf -n 500 | tr '\n' ' ')
+$PROGRAM $(seq -200 800 | shuf -n 500 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -200 800 | shuf -n 500 | tr '\n' ' ')
+$PROGRAM $(seq -200 800 | shuf -n 500 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
 
-$PROGRAM $(seq -200 800 | shuf -n 500 | tr '\n' ' ')
+$PROGRAM $(seq -200 800 | shuf -n 500 | awk '{val=sprintf("%d", $1); if (!seen[val]++) printf "%d ", val}')
